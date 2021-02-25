@@ -1,0 +1,163 @@
+[{
+    "nome":"Nicholas Affonso",
+
+    "nasc":[{
+
+        "dia": 19,
+        "mes": 3,
+        "ano": 1992
+    }],
+    
+    "contato":[{
+
+        "fone": "(31) 9 9701-4591",
+        "email": "nicholasaffonsop@gmail.com",
+        "endereco": "Av. Augusto de lima, 233 - Centro - Belo Horizonte - MG - BR"
+
+    }],
+    
+    "exp":[{
+
+        "exp-6":[{
+
+            "cargo": "Desenvolvedor Web",
+            "empregador": "Tundra Studies",
+            "endereco": "Rio de Janeiro - Botafogo",
+            "periodo": "maio 2019 - fevereiro 2020"
+
+        }],
+
+        "exp-5":[{
+            "cargo": "Impressor digital",
+            "empregador": "Estação do transfer - Estamparia",
+            "endereco": "Belo Horizonte - Ipiranga",
+            "periodo": "janeiro 2019 - maio 2019"
+
+        }],
+
+        "exp-4":[{
+
+            "cargo": "Artista gráfico",
+            "empregador": "AR - Gráfica",
+            "endereco": "Belo Horizonte - Mercado Novo",
+            "periodo": "julho 2018 - janeiro 2019"
+
+        }],
+
+        "exp-3":[{
+
+            "cargo": "Artista gráfico",
+            "empregador": "PH Print - Gráfica",
+            "endereco": "Rio de Janeiro - Vila da Penha",
+            "periodo": "julho 2016 - dezembro 2016"
+        }],
+
+        "exp-2":[{
+
+            "cargo": "Supervisor de pesquisa",
+            "empregador": "SAGA - Escola de computação gráfica",
+            "endereco": "Belo Horizonte - Centro",
+            "periodo": "setembro 2013 - março 2014"
+        }],
+
+        "exp-1":[{
+
+            "cargo": "Pesquisador de campo",
+            "empregador": "SAGA - Escola de computação gráfica",
+            "endereco": "Belo Horizonte - Centro",
+            "periodo": "setembro 2012 - setembro 2013"
+        }]
+
+    }],
+
+    "educacao":[{
+
+        "superior":[{
+            "curso": "Análise e desenvolvimento de sistemas",
+            "estado": "Andamento",
+            "conclusao": "fevereiro 2021 - agosto 2025",
+            "instituicao": "Faculdade Pitágoras - Belo Horizonte"
+        }],
+
+        "medio":[{
+
+            "curso": "Ensino Médio",
+            "estado": "Concluído",
+            "conclusao": "fevereiro 2020",
+            "instituicao": "Encceja INEP"
+        }],
+
+        "extraCurricular":[{
+
+            "curso": "Profissionalizante",
+            "estado": "Concluído",
+            "conclusao": "março 2007",
+            "instituicao": "SENAI - Rio de Janeiro"
+        }],
+
+        "idiomas":[{
+
+            "idioma-1":[{
+
+                "ptbr": "Português",
+                "fluencia": "Nativo / Formal"               
+            }],
+
+            "idioma-2":[{
+
+                "en": "Inglês",
+                "fluencia": "Intermediário / Técnico"
+            }]
+
+        }]
+    }],
+
+    "habilidades":[{
+        "grafico":[{
+            "imagem": [{
+                "edicao-1":"Adobe Photoshop",
+                "edicao-2":"Gimp"
+            }],
+
+            "vetor":[{
+                "vetor-1": "Adobe Illustrator",
+                "vetor-2": "InkScape"
+            }],
+
+            "3D":[{ 
+                "3d-1": "Blender"
+            }],
+
+            "gameEngine":[{
+                "engine": "GoDot"
+            }],
+            
+            "som":[{
+                "editSom-1":"Adobe Audition",
+                "editSom-2":"Audacity"
+            }],
+
+            "Code":[{
+                "linguagens":[{
+                    "linguagem-1":"HTML",
+                    "linguagem-2":"CSS",
+                    "linguagem-3":"JavaScript",
+                    "linguagem-4":"JSON",
+                    "linguagem-5":"C#",
+                    "linguagem-6":"C++",
+                    "linguagem-7":"GSDcript"
+                }],
+                "ferramentas":[{
+                    "ferramenta-1":"Git",
+                    "ferramenta-2":"Npm",
+                    "ferramenta-3":"WordPress"
+                    }],
+                "metodos":[{
+                    "metodo-1":"Scrum",
+                    "metodo-2":"KamBam"
+                    }]
+            }]
+
+        }]
+    }]
+}]
