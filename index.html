@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width,initial-scale=1.0">
-        <title>Nicholas Affonso Curriculum</title>
+        <title>Nicholas Affonso</title>
         
         <!--Folhas de estilo-->
         <link rel="stylesheet" href="/css/main.css">
@@ -13,39 +13,65 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 
-        <!--FavIcons-->
+        <!--FavIcon-->
+        <link rel="icon" href="favicon/icon.png" type="image/png" sizes="16x16">
+
+        <!-- BrowserColor -->
+
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#4285f4">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#4285f4">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+
     </head>
 
     <body>
-        <header>
+        <nav id="navbar">
+
+            <div class="content">
+              
+              <a  href="#" class="logo">
+                <h1 class="logo">Nicholas Affonso</h1>
+               </a>
+      
+              <div class="links">
+                <a href="https://drive.google.com/file/d/1KmqXR6G8z2eY-BwypwWkCCNNURTg4xX2/view?usp=sharing" target="_blank">SOBRE</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">CONTATO</a>
+              </div>
+      
+              <ion-icon id="hamburger" class="menu-icon" name="menu-outline" onclick="menu()"></ion-icon>
+            </div>
+      
+            <div class="dropdown">
+              <a href="https://drive.google.com/file/d/1KmqXR6G8z2eY-BwypwWkCCNNURTg4xX2/view?usp=sharing" target="_blank">SOBRE</a>
+              <a href="#">PORTFOLIO</a>
+              <a href="#">CONTATO</a>
+            </div>
+      
+          </nav>
+          <main id="mainContent">
             <section>
-                <article></article>
+                <h3>Olá</h3>
+                <p>Esta página está em desenvolvimento</p>
+                <p>Aqui está meu currículo para maiores informações<br><button id="btn"><a href="https://drive.google.com/file/d/1KmqXR6G8z2eY-BwypwWkCCNNURTg4xX2/view?usp=sharing" target="_blank">CURRICULO</a></button></p>
             </section>
-        </header>
-
-        <nav>
-            
-        </nav>
-
-        <main>
-            <section>
-                <article></article>
+          </main>
+      
+          <footer>
+            <section class="section-description">
+              <p>Nicholas Affonso</p>
+              <p>Desenvolvedor Web</p>
             </section>
-        </main>
-
-        <aside>
-            <section>
-                <article></article>
+            <section class="section-icons">
+      
             </section>
-        </aside>
-
-        <footer>
-            <section>
-                <article></article>
-            </section>
-        </footer>
-
-        <!--SCRIPTS-->
-        <script src="/js/main.js"></script>
+          </footer>
+      
+          <script src="/js/main.js"></script>
+          <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        
     </body>
 </html>
