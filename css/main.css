@@ -3,28 +3,21 @@
 * {
     margin: 0;
     padding: 0;
+    padding: 0;
     box-sizing: border-box;
-  }
-  body {
     font-family: 'Inconsolata', monospace;
-    color: rgb(255, 255, 246);
+    color: #FFFAC2;
+    font-weight: 300;
   }
   a {
     text-decoration: none;
-    color: rgb(255, 255, 246);
+    color: #FFFAC2;
     padding: 8px;
   }
   a:hover {
-    color: rgb(255, 255, 246);
-    background-color: rgba(255, 255, 200, 0);
-    font-weight: 600;
-  }
-  button{
-      background-color: #25262700;
-      border: 2px solid #7acab1ff;
-      border-radius: 4px;
-      padding: 8px;
-      
+    color: #ed1f67;
+    background-color:#351736;
+    font-weight: 500;
   }
   
   /*Navbar*/
@@ -40,14 +33,14 @@
     transition: top 0.5s;
   }
   nav .content {
-    background-color: #120729ff;
+    background-color: #351736;
     display: grid;
     place-items: center;
     grid-auto-flow: column;
     align-content: space-evenly;
   }
   nav .content .logo:hover {
-    background-color: #120729ff;
+    /*background-color: #120729ff;*/
     color: rgb(255, 255, 246);
   }
   nav .content .links {
@@ -71,7 +64,7 @@
   }
   nav .dropdown {
     display: none;
-    background-color: #120729ff;
+    background-color: #351736;
     text-align: center;
   }
   nav .dropdown a {
@@ -92,8 +85,20 @@
   }
   
   /*Main*/
-  
-  main section {
+  .fab, .fas{
+    font-size: 1.5rem;
+  }
+  .iconsSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10vh;
+    margin-bottom: 15%;
+    margin-top: 15%;
+  }
+  .icon-text{
+    font-weight: 400;
+  }
+  .textSection {
     display: grid;
     height: 100vh;
     width: 100%;
@@ -104,37 +109,31 @@
     align-items: center;
     justify-content: space-around;
   }
-  main section h3 {
-    padding: 2.5rem 2.5rem;
-    background: #120729ff;
-    color: rgb(255, 255, 246);
-    font-size: 2.5rem;
-    box-shadow: 10px 10px 8px #000000;
-  }
-  main section p{
-      font-size: 1.5rem;
-      letter-spacing: 0,5rem;
-      line-height: 2rem;
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-      text-justify:distribute;
+  main section article{
+    
   }
   @media only screen and ( max-width: 760px) {
     main section h3 {
-      padding: 1rem .5rem;
-      background: #120729ff;
+      padding: .5rem;
+      background: #351736;
       color: rgb(255, 255, 246);
-      font-size: 2rem;
-      box-shadow: 10px 10px 8px #000000;
+      font-size: 2.5rem;
+    }
+    main section p{
+      padding: .5rem;
+      font-size: 1.5rem;
     }
   }
   @media only screen and (max-width: 320px) {
     main section h3 {
-      padding: 10rem .5rem;
-      background: #120729ff;
-      color: rgb(255, 255, 246);
-      font-size: 2rem;
-      box-shadow: 10px 10px 8px #000000;
+      padding: .5rem;
+      background: #351736;
+      color: #fffac2;
+      font-size: 2.5rem;
+    }
+    main section p{
+      padding: .5rem;
+      font-size: 1rem;
     }
   }
   
@@ -146,4 +145,5 @@
     font-size: 12pt;
     text-align: center;
     display: grid;
+    height: 5%;
   }
